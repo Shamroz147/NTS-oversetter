@@ -103,7 +103,7 @@ maske_halv = np.isin(y_egen_halv, model.classes_)
 
 print("Gammel modell, egne testdata:",
       accuracy_score(y_egen_halv[maske_halv], model.predict(X_egen_halv[maske_halv])))
-print("Ny modellm egne testdata:", 
+print("Ny modell, egne testdata:", 
       accuracy_score(y_egen_halv, model2.predict(X_egen_halv)))
 print("Ny modell, Mendeley-data:",
       accuracy_score(y_test, model2.predict(X_test)))
