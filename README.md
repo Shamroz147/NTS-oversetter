@@ -1,5 +1,4 @@
-# NTS-oversetter 
-## Sanntidsgjenkjenning av norsk håndalfabet med MediaPipe og Random Forest.
+# NTS-oversetter - ## Sanntidsgjenkjenning av norsk håndalfabet med MediaPipe og Random Forest.
 
 Et fritidsprosjekt der jeg prøver å gjenkjenne det norske håndalfabetet med webkamera og maskinlæring.
 
